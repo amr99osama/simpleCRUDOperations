@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+ <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JSON Server </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="header-1 animated zoomIn">
+            Local JSON Database
+        </h1>
+        <h2 class="header-2">
+            Insert New Data
+        </h2>
+        <div style="display: flex; justify-content: space-around; margin: 0 20px; padding: 0 20px;">
+            <div style="width: 50%;">
+                <form action="" class="form-shape">
+                    <div class="input-flow">
+                        <label for="second">
+                           First Insertion
+                        </label>
+                        <input type="text" name="second" id="second" value="">
+                    </div>
+                    <div class="input-flow">
+                        <label for="third">
+                            Second Insertion
+                        </label>
+                        <input type="text" name="third" id="third" value="">
+                    </div>
+                    <input type="submit" value="send data" class="insert-data">
+                </form>
+            </div>
+            <div style="width: 50%; border: 1px solid #fff; padding: 0 20px; margin: 0 20px;">
+                <p class="text">The Data inserted is </p>
+                <div class="text inserted-data">
+                    
+                </div>
+            </div>
+        </div>
+        <h2 class="header-2">
+            Select All Data
+        </h2>
+        <div style="display: flex; justify-content: space-around; margin: 0 20px;">
+            <div style="width: 50%; border: 1px solid white; padding: 0 20px; margin: 0 20px;">
+                <form action="" class="form-shape" style="border: 0;">
+                    <div class="input-flow">
+                        <label for="first">
+                            Data Needed to be loaded
+                        </label>
+                        <!-- <input type="text" name="data-load" id="" value="" > -->
+                    </div>
+                    <button type="submit" class="load-data">Load Data</button>
+                </form>
+            </div>
+            <div style="width: 50%; border: 1px solid white; padding: 0 20px; margin: 0 20px;">
+                <p class="text">The Data Requested is </p>
+                <p class="text requested-data">
+
+                </p>
+            </div>
+        </div>
+        <h2 class="header-2">
+            Clear All Data
+        </h2>
+        <div style="display: flex; justify-content: space-around; margin: 0 20px;">
+            <div style="width: 50%; border: 1px solid white; padding: 0 20px; margin: 0 20px;">
+                <form action="" class="form-shape" style="border: 0;">
+                    <div class="input-flow">
+                        <label for="first">
+                            Delete All Data
+                        </label>
+                        <!-- <input type="text" name="data-load" id="" value="" > -->
+                    </div>
+                    <button type="submit" class="load-data delete-data">Delete Data</button>
+                </form>
+            </div>
+            <div style="width: 50%; border: 1px solid white; padding: 0 20px; margin: 0 20px;">
+                <p class="text">The Data Deleted is </p>
+                <p class="text requested-data">
+                </p>
+            </div>
+        </div>
+           
+       
+        <script src="script.js" async defer></script>
+    </body>
+</html>

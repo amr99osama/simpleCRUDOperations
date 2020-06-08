@@ -1,0 +1,109 @@
+
+*,body,html
+{
+    box-sizing : border-box;
+    font-size: 62.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body,html 
+{
+    background-color: #141437;
+}
+
+animated 
+{
+    animation-duration: 1s;
+}
+
+/* headers */
+
+.header-1
+{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+.header-2
+{
+    font-size: 4rem;
+    color: white;
+    padding: 0 20px;
+    font-weight: 400;;
+}
+
+
+.form-shape
+{
+    border: 1px solid #fff;
+    font-size: 2rem;;
+    width: auto;
+    padding: 20px;
+}
+
+.form-shape label
+{
+    display: block;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.form-shape input[type="text"]
+{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid transparent !important;
+    padding: 10px;
+    margin: 10px 0;
+    transition: all 0.1s ease-out;
+    font-size: 2rem;
+}
+
+.form-shape input[type="text"]:focus
+{
+    outline: none !important;
+    transition: all 0.1s ease-out;
+    border-radius: 5px; 
+    border: 2px solid red !important;
+}
+.form-shape input[type="submit"] , .load-data
+{
+border: 0;
+    padding: 10px 15px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.data
+{
+    border: 1px solid white;
+}
+
+.text
+{
+    font-size: 1.7rem;
+    color: white;;
+}
+
+
+
+
+@media screen and (max-width: 767px)
+{
+    div 
+    {
+        width: 100% !important;
+        display: block;;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "a",
+      "author": "a12",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "Amr Osama",
+    "age": 20,
+    "email": "amr123@a1.com"
+  },
+  "Sports": {
+    "sportName": "football"
+  }
+}
